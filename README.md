@@ -29,7 +29,7 @@ If you need any assistance on any issues or have questions, ideas or concerns. K
 
 ### Live Link
 
-https://itegei.github.io/Week-Two-IP/
+https://itegei.github.io/week_two_portfolio/
 
 ### License
 
