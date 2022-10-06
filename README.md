@@ -2,8 +2,8 @@
 Technology details
 live link
 # Tegei's Biography
-#### This project is about the biography of Tegei, Version Date: 9th Sept 2022
-#### By **DIsaac Tegei**
+#### This project is about the biography of Tegei, Version Date: 7th October 2022
+#### By **Isaac Tegei**
 ## Description
 This is a project about the biography of Tegei, the purpose and usage of the project is state more information on Tegei's hobbies, interests and skills. This project is my first assignment for week one and I will explain the list of projects that I have been creating using visual studio code, git bash and the uploading on Github.
 
@@ -13,7 +13,7 @@ This is a project about the biography of Tegei, the purpose and usage of the pro
 - You will learn on Tegei's reason for doing the course.
 - The project is easy-to-understand
 - Just click on the hyperlinks that will direct you to view Github projects.
-- Git clone https://github.com/itegei/week_two_Portfolio.git
+- Git clone https://github.com/itegei/week_two_portfolio.git
 - Open cloned code on VS code
 - Run on live server
 
