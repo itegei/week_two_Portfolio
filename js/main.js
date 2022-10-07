@@ -9,21 +9,19 @@ function validate() {
     document.myForm.year.value <=1900) {
         alert ("Please provide a valid year of birth, eg 2004");
         document.myForm.year.focus();
-        return list;
+        return value;
     }
     else if (document.myForm.month.value == "" || isNaN(document.myForm.month.value) || 
     document.myForm.month.value.length !=2 || document.myForm.month.value >12 || document.myForm.month.value <=0) {
         alert ("Please provide a valid month of birth! between 01 and 12");
         document.myForm.month.focus();
-        return list;
-
+        return value;
     }
     else if (document.myForm.date.value == "" || isNaN(document.myForm.date.value) || 
     document.myForm.date.value.length !=2 || document.myForm.date.value >31 || document.myForm.month.value <=0) {
         alert ("Please provide a valid date of birth that you were born");
         document.myForm.day.focus();
-        return list;
-    
+        return value;
     }
 
     else if (genders[0].checked == false && genders[1].checked == false) {
@@ -35,7 +33,7 @@ function validate() {
     return true;
     }
 }
-function calculateDayValue(){
+function calculateDayValue() {
     year = document.getElementById("year").value;
     CC = parseInt(year.substring(0,2));
     YY = parseInt(year.substring(2,4));
