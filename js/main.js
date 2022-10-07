@@ -3,15 +3,33 @@ function runAlert(){
 }
 
 {
-    var birthDateInput = prompt("Enter your birthday (YYYY-MM-DD) : "); //PROMPTS THE USER FOR THEIR BIRTH DATES USING THE HINTED FORMAT (ENSURE THEERE IS A PLACEHOLDER IN YOUR INPUT FORM WITH DATE FORMAT)
-var genderInput = prompt ("Enter your gender M/F : ").toUpperCase();//TURNS THE USER INPUT INTO UPPER CASE IN CASE ITS LOWER CASE
-
-var birthDateDetails = new Date(birthDateInput); //CREATES A NEW DATE OBJECT USING THE DETAILS INPUT BY THE USER STARTING WIT YEAR MONTH DATE HOUR MINUTE etc
-var birthDay = birthDateDetails.getDay();//THE getDay() METHOD PICKS THE DAY FROM THE DATE IN FORM OF A NUMBER FROM 0-6 SUN-SAT
-
+var cc, YY, MM, DD, d, dayValue
 var daysOfWeek = ['Sunday', 'Monday', 'Tuesday','Wednesday', 'Thursday', 'Friday', 'Saturday']; // WE DECLARE AND INITIALISE AN ARRAY WITH THE DAYS OF THE WEEK STARTING FROM SUNDAY TO MONDAY
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]; //ARRAY OF FEMALE AKAN NAMES
 var maleNames = ["Kwasi", "Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]; //ARRAY OF MALE AKAN NAMES
+
+function validate() {
+    var genders = document.getElementsByName("gender");
+    if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
+        alert (please provide a valid year of birth, eg 2004");
+        document.myForm.year.focus();
+        return else;
+    }
+    else if (document.myForm.month.value == "" || isNaN(document.myForm.month.value) || 
+    document.myForm.month.value.length !=2 || document.myForm.month.value >12 || document.myForm.month.value <=0) {
+        alert (Please provide a valid month of birth! between 01 and 12");
+        document.myForm.month.focus();
+        return else;
+
+    }
+    else if (document.myForm.date.value == "" || isNaN(document.myForm.date.value) || 
+    document.myForm.date.value.length !=2 || document.myForm.date.value >31 || document.myForm.month.value <=0) {
+        alert (Please provide a valid date of birth that you were born);
+        document.myForm.day.focus();
+        return else;
+     
+
+}
 
 var fullGender;
 
