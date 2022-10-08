@@ -71,7 +71,7 @@
   }
 
   body {
-    background-image: url("/images/Akan\ ppl.jpg");
+    /* background-image: url("/images/Akan\ ppl.jpg"); */
     background-image: no-repeat;
     width: 100%;
     height: 100%;
@@ -166,8 +166,8 @@ input[type="radio"] {
     font-size: 16px;
 
     #output {
-        display: none;
+        display: block;
     }
     .akan-name {
-        display: none;
+        display: block;
     }

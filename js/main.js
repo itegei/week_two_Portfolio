@@ -81,7 +81,7 @@ function findName(){
     dayValue = calculateDayValue();
     getGender();
 
-    // var outputElement = document.getElementById("output");
-    // outputElement.innerHTML = "This is some"
-    // console.log(outputElement.innerHTML);
+    var dayValue = document.getElementById("output").innerHTML
+    // dayValue.innerHTML = "You were born on: " + output[0] + ". Your akan name is: " + output[0]
+    console.log(dayValue.innerHTML);
 }

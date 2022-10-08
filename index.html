@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="icon" href="/images/assorted Cakes.jpg" type="img/jpg"/>
     <title>The Akan Age Calculator: Authored by Tegei</title>
+    <script src="/js/main.js"></script>
   </head>
   <body>
     <div class="container">
@@ -43,15 +44,15 @@
           <form name="myForm" class="form" onsubmit="validate();">
             <div class="form-group">
               <label for="number">Year of Birth:</label>
-              <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2020 if born in 2022" name="year">
+              <input type="number" class="form-control" id="year" placeholder="Year of Birth e.g. 2010 if born in 2010" name="year">
             </div>
             <div class="form-group">
               <label for="month">Month of Birth:</label>
-              <input type="number" class="form-control" id="month" placeholder="Month of Birth eg 01 for Jan" name="month">
+              <input type="number" class="form-control" id="month" placeholder="Month of Birth e.g. 01 for Jan" name="month">
             </div>
             <div class="form-group">
               <label for="date">Date of Birth:</label>
-              <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for day" name="date">
+              <input type="number" class="form-control" id="date" placeholder="Date of Birth e.g. 05 for day" name="date">
             </div>
             <div class="form-group">
               <label for="month">Gender</label><br>
@@ -67,9 +68,11 @@
               </div>
             </div>
             <button type="submit" class="btn btn-primary" onclick="findName();">Find Your Akan Name</button>
+            <!-- <button type="submit" class="btn btn-primary" onclick='document.getElementById("output").innerHTML="Demo"'>Find Your Akan Name</button> -->
             <br>
+            output is: <output name="document"></output>
           </form>
-          <p id="results">This is it</p>
+          <p id="output"></p>
         </div>
     </div>
     <div class="card-deck">
@@ -80,17 +83,19 @@
                   <i class="fa fa-globe fa-stack-1x" style="color:rgb(248, 249, 250)"></i>
                 </span><a href="https://en.wikipedia.org/wiki/Akan_names"> More information on Akan names, click on the link.</a>
             </p>
+<p> Click the button to print the current page. <button onclick="window.print()">Print this page</button></p>
           </div>
         </div>     
         </div>
     </div>
 </div>
-    <footer class="page-footer" style="color:rgb(252, 252, 252); font-size: large; font-style: italic;fon
-     ;">
+    <footer class="page-footer" style="color:rgb(252, 252, 252); font-size: large; font-style: italic;fon;">
       <div class="footer-copyright text-center py-3">Copyright © Oct 2022:
         <a href="https://itegei.github.io/week_two_portfolio/"> Tegei</a>
       </div>
     </footer>
     <script src="/js/main.js"></script>
+
+    
   </body>
 </html>
