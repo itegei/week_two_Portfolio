@@ -94,6 +94,24 @@
 .card-body{
   color: rgb(0, 0, 0);
 }
+
+.card-result{
+  color: rgb(0, 0, 0);
+  display: block;
+  background-color: rgb(235, 226, 226);
+  width: 360px;
+  height: 42px;
+  box-shadow: #892626;
+  border: solid;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+.myFeedback{
+  display: none;
+
+}
+
 .card-deck{
   padding-bottom: 20px;
   font-weight: 600;
