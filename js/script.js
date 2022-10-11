@@ -23,6 +23,10 @@ function akanNames() {
   //USER PROMPTS
   var dateInput = prompt("Enter date of birth: (YYYY-MM-DD)");
 
+  ///
+
+  ///
+
   /*DATE MANIPULATION VARIABLES*/
   var birthDate = new Date(dateInput); //uses the variable dateinput from the user prompt to create a calender date
   var sikuKamili = birthDate.getDay();
@@ -35,7 +39,7 @@ function akanNames() {
 
   //console.log(sikuKamili, birthMonth, birthYear);
 
-  if (sikuKamili >= 0 && sikuKamili <= 7 && birthMonth >= 0 && birthMonth <= 12 && birthYear >= 1900 && birthYear <= 2100 ) {
+  if (dateInput.length === 10 && sikuKamili >= 0 && sikuKamili <= 7 && birthMonth >= 0 && birthMonth <= 12 && birthYear >= 1900 && birthYear <= 2100 ) {
     var jinsia = prompt("Enter the gender: (M/F)").toLowerCase(); //takes the user input and converts it to upper case
     if (
       jinsia === "m" ||
