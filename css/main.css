@@ -2,11 +2,10 @@
 
 
 .body {
-    background-color:rgb(217, 224, 232);
+    background-color:rgb(245, 22, 22);
     color: auto;
     text-align: auto;
-    background-image: url(/images/assorted\ Cakes.jpg);
-    background-image:url(/images/Accra_Central_Accra_Ghana_2019.jpg) ;
+    background-image: url(/images/Globe\ Image.jpg);
     font-size: large;
 }
 
@@ -14,8 +13,8 @@
     padding-top: 30px;
     padding-bottom: 15px;
     margin-bottom: 15px;
-    color: inherit;
-    background-color: rgb(102, 99, 99);
+    color: black;
+    background-color: rgb(168, 168, 168);
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -23,7 +22,7 @@
   }
   .jumbotron p {
     margin-bottom: 15px;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 200;
     color: black;
     margin-left: 15px;
@@ -35,15 +34,15 @@
   .container-fluid .jumbotron {
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 6px;
+    border-radius: px;
   }
   .jumbotron .container {
     max-width: 100%;
   }
   @media screen and (min-width: 768px) {
     .jumbotron {
-      padding-top: 48px;
-      padding-bottom: 48px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
     .container .jumbotron,
     .container-fluid .jumbotron {
@@ -56,8 +55,8 @@
     }
   }
   #image {
-    width: 500px; 
-    height:500px; 
+    width: 600px; 
+    height:600px; 
     margin-left: 25%;
   }
   #jumboimage {
@@ -87,7 +86,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(16, 17, 18);
   }
   #p2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(250, 251, 253);text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: rgb(0, 0, 8);text-align: center;
   }
 .card{
   background: rgb(246, 247, 249);
@@ -99,7 +98,7 @@
 .card-result{
   color: rgb(0, 0, 0);
   display: block;
-  background-color: rgb(235, 226, 226);
+  background-color: rgb(243, 247, 113);
   width: 360px;
   height: 42px;
   box-shadow: #892626;
