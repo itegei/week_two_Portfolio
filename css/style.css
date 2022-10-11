@@ -2,10 +2,10 @@
 
 
 .body {
-    background-color:rgb(245, 22, 22);
+    background-color:rgb(238, 221, 221);
     color: auto;
     text-align: auto;
-    background-image: url(/images/Globe\ Image.jpg);
+    /* background-image: url(/images/Accra_Central_Accra_Ghana_2019.jpg); */
     font-size: large;
 }
 
