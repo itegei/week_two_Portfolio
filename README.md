@@ -21,7 +21,9 @@ This is a project about the biography of Tegei, the purpose and usage of the pro
 There are no known bugs on this project.
 
 ## Technologies Used
-Languages used include HTML, CSS, Js an. I have used editor Visual Studio Code for creating the app and Git Bash terminal for coding.
+- Languages used include HTML, CSS, Js and bootrap. 
+- I have used editor Visual Studio Code for creating the app and Git Bash terminal for coding.
+- Finally, github for hosting the website
 
 ## Support and contact details
 
